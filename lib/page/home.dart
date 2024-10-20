@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../UI/bottom_navigation_bar_ui.dart';
 import '../UI/drawer_ui.dart';
 
 class HomePage extends StatefulWidget {
@@ -20,6 +21,7 @@ class _HomePageState extends State<HomePage> {
         centerTitle: true,
       ),
       drawer: const DrawerUi(),
+      bottomNavigationBar: const BottomNavigationBarUi(),
     );
   }
 }
